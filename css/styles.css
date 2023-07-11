@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background: orange;
+    color: white;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    padding: 20px;
+    border-radius: 20px;
+    transition: background-color 0.5s ease;
+    cursor: pointer; /
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .menu li:hover {
+    background-color: #CC5500;
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ease; 
+  }
+  
+  .menu li:hover a {
+    color: #fff;
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  
+  .card-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    position: relative;
+    margin: 10px;
+    height: 400px;
+    width:400px;
+    border: 2px solid black;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .card:hover {
+    transform: scale(1.06);
+    transition: transform 0.5s ease; 
+
+  }
+
+  .card h1{
+    font-size: 50px;
+    margin: 10px;
+  }
+  .card p{
+    font-size: 20px;
+    margin: 10px;
+  }
+  .card button{
+    font-size: 20px;
+    background: orange;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+    margin: 20px;
+    border-radius:50px;
+    margin-bottom: 20px;
+    transition: background 0.5s ease; 
+  }
+
+  .card img{
+    font-size: 20px;
+    width: 100%;
+    height: 250px;
+    border-radius:50px;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+  }
+
+  .card button:hover{
+    background: white;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+    margin: 20px;
+    border-radius:50px;
+    margin-bottom: 20px;
+    cursor:pointer
+  }
+  
+  
